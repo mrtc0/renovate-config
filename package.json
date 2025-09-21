@@ -1,7 +1,6 @@
 {
   "name": "@mrtc0/renovate-config",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
   "scripts": {
     "test": "renovate-config-validator default.json5"
   },

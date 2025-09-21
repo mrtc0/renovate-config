@@ -4,5 +4,22 @@
     "config:best-practices",
     ":timezone(Asia/Tokyo)"
   ],
-  "minimumReleaseAge": "7 days"
+  "minimumReleaseAge": "7 days",
+  labels: [
+    'renovate',
+  ],
+  vulnerabilityAlerts: {
+    enabled: true,
+    labels: [
+      'security',
+    ],
+  },
+  dependencyDashboardOSVVulnerabilitySummary: 'unresolved',
+  osvVulnerabilityAlerts: true,
+  'github-actions': {
+    managerFilePatterns: [
+      '/^(workflow-templates|\\.github)\\/.+\\.ya?ml$/',
+      '/(^|\\/)action\\.ya?ml$/',
+    ],
+  }
 }
