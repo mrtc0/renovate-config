@@ -1,0 +1,14 @@
+{
+  "name": "@mrtc0/renovate-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "renovate-config-validator default.json5"
+  },
+  "author": "Kohei Morita <mrtc0@ssrf.in>",
+  "license": "MIT",
+  "description": "Shareable config for Renovate",
+  "devDependencies": {
+    "renovate": "^41.122.0"
+  }
+}
