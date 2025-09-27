@@ -1,12 +1,12 @@
 {
-  $schema: "https://docs.renovatebot.com/renovate-schema.json",
-  extends: [
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
     "config:best-practices",
     "github>mrtc0/renovate-config:groupGolangPackages",
     "github>mrtc0/renovate-config:postUpdateOptions",
     "github>mrtc0/renovate-config:githubActions",
     "github>mrtc0/renovate-config:security",
-    ":timezone(Asia/Tokyo)",
+    ":timezone(Asia/Tokyo)"
   ],
-  labels: ["renovate"],
+  "labels": ["renovate"]
 }

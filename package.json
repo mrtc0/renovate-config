@@ -2,7 +2,7 @@
   "name": "@mrtc0/renovate-config",
   "version": "2.0.0",
   "scripts": {
-    "test": "renovate-config-validator default.json5"
+    "test": "renovate-config-validator default.json"
   },
   "author": "Kohei Morita <mrtc0@ssrf.in>",
   "license": "MIT",
