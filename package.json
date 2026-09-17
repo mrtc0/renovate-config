@@ -8,6 +8,6 @@
   "license": "MIT",
   "description": "Shareable config for Renovate",
   "devDependencies": {
-    "renovate": "^41.122.0"
+    "renovate": "41.122.0"
   }
 }
